@@ -6,6 +6,7 @@
     --light: #ffffff;
 }
 
+/* font-family from google fonts */
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -14,16 +15,19 @@
 #bio {
     border-left: solid;
     border-color: var(--lava);
+    padding: 45px 0px 0px 45px;
 }
 
 #project-cards {
     border-left: solid;
     border-color: var(--lava);
+    padding: 45px 0px 0px 45px;
 }
 
 #contact-info {
     border-left: solid;
     border-color: var(--lava);
+    padding: 45px 0px 0px 45px;
 }
 
 header {
@@ -106,10 +110,10 @@ h1, h2 {
 .headshot {
     width: 62%;
     height: auto;
-}
-
-.headshot-picture {
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 
 h1 {
@@ -119,8 +123,11 @@ h1 {
 .tag-line {
     color: var(--lava);
     font-size: 1.5rem;
+    padding: 45px 0;
+    text-align: center;
 }
 
 .contact-li {
     line-height: 3rem;
+    font-size: 1.25rem;
 }

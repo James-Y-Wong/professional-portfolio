@@ -6,6 +6,10 @@
     --light: #ffffff;
 }
 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 
 #bio {
     border-left: solid;
@@ -43,6 +47,7 @@ h2, h5 {
 a {
     color: var(--light);
     text-decoration: none;
+    font-size: 1rem;
 }
 
 a:hover {
@@ -105,4 +110,17 @@ h1, h2 {
 
 .headshot-picture {
     align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.tag-line {
+    color: var(--lava);
+    font-size: 1.5rem;
+}
+
+.contact-li {
+    line-height: 3rem;
 }

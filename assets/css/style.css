@@ -1,0 +1,65 @@
+/* color pallate from schemecolor.com */
+:root {
+    --dark: #0D0D0D;
+    --lava: #CC1C1D;
+    --smoke: #2C2C2C;
+    --light: #ffffff;
+}
+
+
+#bio {
+    border-left: solid;
+    border-color: var(--lava);
+}
+
+#project-cards {
+    border-left: solid;
+    border-color: var(--lava);
+}
+
+#contact-info {
+    border-left: solid;
+    border-color: var(--lava);
+}
+
+header, footer {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+body {
+    background-color: var(--smoke);
+}
+
+p, h2, li, h5 {
+    color: var(--light);
+}
+
+h2 {
+    color: var(--lava);
+}
+
+a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--lava);
+}
+
+.nav-link {
+    color: var(--light);
+}
+
+.nav-link:hover {
+    color: var(--lava);
+}
+
+button {
+    background-color: var(--dark);
+}
+
+.card-text {
+    color: var(--dark);
+}

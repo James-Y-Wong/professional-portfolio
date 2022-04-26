@@ -22,20 +22,21 @@
     border-color: var(--lava);
 }
 
-header, footer {
+header {
     background-color: var(--dark);
     color: var(--light);
+    padding: 1.5rem;
 }
 
 body {
     background-color: var(--smoke);
 }
 
-p, h2, li, h5 {
+p, li {
     color: var(--light);
 }
 
-h2 {
+h2, h5 {
     color: var(--lava);
 }
 
@@ -57,9 +58,37 @@ a:hover {
 }
 
 button {
-    background-color: var(--dark);
+    background-color: var(--smoke);
 }
 
 .card-text {
-    color: var(--dark);
+    color: var(--light);
+}
+
+.card-body {
+    background-color: var(--dark);
+}
+
+.card {
+    border-color: var(--smoke);
+}
+
+.contact-section {
+    margin-top: 50px;
+}
+
+.work-section {
+    margin-top: 50px;
+}
+
+.about-section {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: var(--dark);
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 1rem;
 }

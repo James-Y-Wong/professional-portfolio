@@ -11,24 +11,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-#bio {
+/* each sections styling */
+#bio, #project-cards, #contact-info {
     border-left: solid;
     border-color: var(--lava);
     padding: 45px 0px 0px 45px;
 }
 
-#project-cards {
-    border-left: solid;
-    border-color: var(--lava);
-    padding: 45px 0px 0px 45px;
-}
-
-#contact-info {
-    border-left: solid;
-    border-color: var(--lava);
-    padding: 45px 0px 0px 45px;
-}
 
 header {
     background-color: var(--dark);
@@ -36,7 +25,7 @@ header {
     padding: 1.5rem;
 }
 
-body {
+body, button {
     background-color: var(--smoke);
 }
 
@@ -50,27 +39,18 @@ h2, h5 {
 
 a {
     color: var(--light);
+    /* takes away underline for links */
     text-decoration: none;
     font-size: 1rem;
 }
 
-a:hover {
+/* when hovering over links text turns from light to lava */
+a:hover, .nav-link:hover {
     color: var(--lava);
 }
 
-.nav-link {
-    color: var(--light);
-}
-
-.nav-link:hover {
-    color: var(--lava);
-}
-
-button {
-    background-color: var(--smoke);
-}
-
-.card-text {
+/* changed bootstrap default font color to light */
+.nav-link, .card-text {
     color: var(--light);
 }
 
@@ -87,13 +67,11 @@ button {
     margin-bottom: 50px;
 }
 
-.work-section {
+/* create spacing between sections*/
+.work-section, .about-section {
     margin-top: 50px;
 }
 
-.about-section {
-    margin-top: 50px;
-}
 
 footer {
     background-color: var(--dark);
@@ -107,6 +85,7 @@ h1, h2 {
     text-align: center;
 }
 
+/* sized and aligned headshot */
 .headshot {
     width: 62%;
     height: auto;
@@ -120,6 +99,7 @@ h1 {
     font-size: 6rem;
 }
 
+/* sized and aligned tagline */
 .tag-line {
     color: var(--lava);
     font-size: 1.5rem;

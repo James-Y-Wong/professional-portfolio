@@ -75,6 +75,7 @@ button {
 
 .contact-section {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .work-section {
@@ -91,4 +92,17 @@ footer {
     margin-bottom: 0%;
     margin-top: 0%;
     padding: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.headshot {
+    width: 62%;
+    height: auto;
+}
+
+.headshot-picture {
+    align-items: center;
 }

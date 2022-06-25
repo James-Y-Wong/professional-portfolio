@@ -12,23 +12,23 @@ The purpose of this project is to build a professional portfolio to showcase my 
 
 The below picture is the final result. This will continue to be a work in progress as I develop and learn new skills and deploy more complex projects.
 
->Header shows logo with nav bar links to sections of the page as well as downloadable resume.
+Header shows logo with nav bar links to sections of the page as well as downloadable resume.
 >
 >![This is a screenshot of header of portfolio](./assets/images/professional-portfolio-header-screenshot.png)
 
->About Me section give a quick bio about myself.
+About Me section give a quick bio about myself.
 >
 >![This is a screenshot of about me section of portfolio](./assets/images/professional-portfolio-about-me-screenshot.png)
 
->Work section displays my top 5 projects, the best project being the largest image. Each project has a title, description, and links to deployed URL and GitHub repo.
+Work section displays my top 5 projects, the best project being the largest image. Each project has a title, description, and links to deployed URL and GitHub repo.
 >
 >![This is a screenshot of work section of portfolio](./assets/images/professional-portfolio-work-screenshot.png)
 
->Contact Me section gives my phone number, email, and links to my LinkedIn and GitHub Repo. Footer section has a link to take user back to top of the page.
+Contact Me section gives my phone number, email, and links to my LinkedIn and GitHub Repo. Footer section has a link to take user back to top of the page.
 >
 >![This is a screenshot of contact me and footer section of portfolio](./assets/images/professional-portfolio-contact-me-screenshot.png)
 
->Full-size screenshot
+Full-size screenshot
 >
 >![This is a screenshot of full-size portfolio](./assets/images/professional-portfolio-fullscreen-screenshot.png)
 
